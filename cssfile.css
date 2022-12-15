@@ -1,0 +1,225 @@
+*{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    padding:0 ;
+    margin: 0;
+    border: 0;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(187, 216, 211);
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 9pt;
+}
+#logo{
+    height: 70px;
+}
+h4{
+    font-weight: 800;
+    font-size: 25pt;
+}
+.headerbutton{
+    display: inline-block;
+    padding: 10px 30px;
+    color: hsl(192, 100%, 9%);
+    background: rgb(255, 255, 255);
+    border-radius:20px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    transition: .4s ease;
+    transition-property: background-color,color;
+}
+.headerbutton:hover{
+    background-color: rgb(65, 62, 65);
+    color: hsl(0, 0%, 100%); ;
+}
+#one{
+    background-color: rgb(187, 216, 211);
+    border-style: outset;
+    border-width: 0;
+    border-color: rgb(187, 216, 211);
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.buildcommunity{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#communitybutton{
+    background-color: rgb(209, 21, 178);
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    align-items: center;
+    color: rgb(231, 229, 229);
+    width: 100px;
+    height: auto;
+}
+#community{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+#Two{
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+    border-style: outset;
+    border-width: 0.5ch;
+    border-color: rgb(217, 217, 226);
+    margin: 30px 40px;
+}
+.growtogether{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.growtogetherparagraphs{
+    margin: 5px;
+    padding: 15px;
+}
+#three{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: outset;
+    border-width: 0.5ch;
+    border-color: rgb(217, 217, 226);
+    margin: 30px 40px;
+}
+.flowingimage{
+    width: 600px;
+    height: auto;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 15px;
+}
+.flowingtexts{
+    text-align: center;
+    font-size: 48pt;
+    margin-bottom:100px;
+}
+.flowingh4{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.flowingparagraphs{
+    line-height: 1.5pt;
+}
+#Four{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: outset;
+    border-width: 0.5ch;
+    border-color: rgb(217, 217, 226);
+    margin: 30px 40px;
+}
+.usersparagraph{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+footer{
+    background-color:hsl(192, 100%, 9%);
+    color: white;
+    height: auto;
+    
+}
+#footerlogo{
+    width: 35px;
+    height:20px;
+    border-radius: 8px;
+    border: thin;
+    border-style: hidden;
+    background-color: hsl(192, 100%, 9%);
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+.location{
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 10px;
+}
+.email{
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 5px;
+}
+.phone{
+    display: flex;
+    column-gap: 12px;
+    margin-bottom:10px;
+}
+.items{
+    list-style-type: none;
+    
+}
+.items a{
+    color: white;
+    text-decoration: none;
+}
+.footermenu{
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.footerwidgets{
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+i{
+    margin-left: 70px;
+}
+.socials{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+#facebook{
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+}
+#instagram{
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+}
+#twitter{
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+}
+.copyright{
+    border-top: 2px;
+    border-color: white;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 40px;
+    border-style: dotted;
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
