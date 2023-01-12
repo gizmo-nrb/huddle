@@ -18,6 +18,7 @@
 }
 .first{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     word-spacing: 9pt;
@@ -78,6 +79,8 @@ h4{
     margin-right: auto;
     margin-bottom: 40px;
     border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #Two{
     background-color: rgb(253, 253, 253);
@@ -222,4 +225,38 @@ i{
     border-style: dotted;
     padding-top: 35px;
     padding-bottom: 70px;
+}
+
+@media (max-width: 968px){
+    .flowingimage #community{
+        width: 400px;
+        padding: 20px;
+    }
+    .layout{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px 70px 20px;
+    }
+    .layout .flowingimage #community{
+        width: 300px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 968px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    .socials{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 150px;
+    }
 }
