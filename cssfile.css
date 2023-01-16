@@ -16,6 +16,10 @@
     height: 70px;
     background-color: rgb(187, 216, 211);
 }
+.layout{
+    display: flex;
+    flex-direction: row;
+}
 .first{
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +119,7 @@ h4{
    margin-right: auto;
    margin-bottom: 15px;
 }
-.flowingtexts{
+.flowingtexts{ 
     text-align: center;
     font-size: 48pt;
     margin-bottom:100px;
